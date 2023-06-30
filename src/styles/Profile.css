@@ -1,0 +1,19 @@
+.Table2-Container {
+  width: 48%;
+  margin-left: unset;
+}
+
+.profileId {
+  background-color: white;
+}
+
+#profile-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Table2-Container h2 {
+  font-weight: 400;
+}

@@ -1,0 +1,97 @@
+.tablecontainer {
+  width: 96%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.leave {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.join {
+  background-color: #ddd;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.active-member-btn {
+  background-color: rgb(0, 81, 255);
+  color: white;
+  border: none;
+  padding: 1px 12px;
+  border-radius: 14px;
+}
+
+.tablechild {
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+th {
+  background-color: white;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+td.name {
+  font-weight: 650;
+}
+
+td button {
+  padding: 5px 20px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.not-member-btn {
+  padding: 1px 12px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  border: none;
+}
+
+td button:not(:last-child) {
+  margin-right: 5px;
+}
